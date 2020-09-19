@@ -28,8 +28,8 @@ _testmain.go
 *.swo
 
 static/up/*
-conf/app.conf
-conf/data.conf
+# conf/app.conf
+# conf/data.conf
 
 /novel
 /novel-linux64
