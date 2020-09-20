@@ -17,6 +17,7 @@
     <meta name="keywords" content="{{.aOut.Keyword}}">
     <meta name="description" content="{{.aOut.Description}}">
     <script type="text/javascript" src="{{.mOut.ViewUrl}}js/zepto.min.v1.0rc1.js" charset="utf-8"></script>
+    <script data-ad-client="ca-pub-8944565109765324" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
     {{.LayoutContent}}

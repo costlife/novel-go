@@ -13,6 +13,7 @@
   	<link href="{{.mOut.ViewUrl}}css/detail.css" rel="stylesheet" type="text/css">
   	
 	<script type="text/javascript" src="{{.aOut.ViewUrl}}js/jquery.min.js" charset="utf-8"></script>
+	<script data-ad-client="ca-pub-8944565109765324" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
     {{template "home/default/common/header.tpl" .}}
