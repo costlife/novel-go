@@ -14,7 +14,7 @@
         </nav>
  
         <div class="foot-copyright">{{.aOut.Copyright}} {{.aOut.Icp}}</div>
-		<div class="foot-copyright" style="font-size: 12px;">{{.aOut.Title}}All the contents are uploaded from the Internet and users. Please contact us to delete them if they are infringing {{str2html .aOut.StatisticsCode}}</div>
+		<div class="foot-copyright" style="font-size: 12px;">{{.aOut.Title}} All the contents are uploaded from the Internet and users. Please contact us to delete them if they are infringing {{str2html .aOut.StatisticsCode}}</div>
     </footer>
 
     <script type="text/javascript" src="{{.mOut.ViewUrl}}js/util.js" charset="utf-8"></script>
