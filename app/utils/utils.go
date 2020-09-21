@@ -15,6 +15,7 @@
 package utils
 
 import (
+	"crypto/md5"
 	"encoding/hex"
 	"errors"
 	"fmt"
@@ -196,4 +197,9 @@ func NewPass(passwd, salt string) (string, error) {
 	}
 
 	return hex.EncodeToString(dk), nil
+}
+
+func GetMD5Hash(text string) string {
+	hash := md5.Sum([]byte(text))
+	return hex.EncodeToString(hash[:])
 }
