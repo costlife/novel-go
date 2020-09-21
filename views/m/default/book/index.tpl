@@ -34,6 +34,18 @@
 	    <div id="l_descr" style="display:none" class="detail-summary">{{str2html .Nov.Desc}}</div>
     </div>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- ad -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8944565109765324"
+         data-ad-slot="4954939519"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
     <div class="column-wrap">
         <h2 class="index-title"><a href="javascript:void(0)" class="index-sort">倒序</a><strong>目录</strong>共{{.Nov.ChapterNum}}章</h2>
         <div class="index-new"><a href="{{urlfor "m.BookController.Detail" "id" .Nov.ChapterId "novid" .Nov.Id}}"><span class="index-tag">{{datetime .Nov.ChapterUpdatedAt "01-02 15:04"}}</span>{{.Nov.ChapterTitle}}</a></div>
