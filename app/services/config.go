@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/vckai/novel/app/models"
-	"github.com/vckai/novel/app/utils"
+	"n2read.com/novel/app/models"
+	"n2read.com/novel/app/utils"
 )
 
 type Config struct {

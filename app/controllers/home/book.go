@@ -17,8 +17,8 @@ package home
 import (
 	"github.com/astaxie/beego"
 
-	"github.com/vckai/novel/app/models"
-	"github.com/vckai/novel/app/services"
+	"n2read.com/novel/app/models"
+	"n2read.com/novel/app/services"
 )
 
 type BookController struct {

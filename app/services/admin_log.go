@@ -17,7 +17,7 @@ package services
 import (
 	"errors"
 
-	"github.com/vckai/novel/app/models"
+	"n2read.com/novel/app/models"
 )
 
 // 定义AdminLogService

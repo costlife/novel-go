@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vckai/novel/app/controllers"
-	"github.com/vckai/novel/app/models"
-	"github.com/vckai/novel/app/services"
-	"github.com/vckai/novel/app/utils"
-	"github.com/vckai/novel/app/utils/log"
+	"n2read.com/novel/app/controllers"
+	"n2read.com/novel/app/models"
+	"n2read.com/novel/app/services"
+	"n2read.com/novel/app/utils"
+	"n2read.com/novel/app/utils/log"
 )
 
 type GroupController struct {

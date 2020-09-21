@@ -15,8 +15,8 @@
 package m
 
 import (
-	"github.com/vckai/novel/app/controllers"
-	"github.com/vckai/novel/app/services"
+	"n2read.com/novel/app/controllers"
+	"n2read.com/novel/app/services"
 )
 
 // 前台首页基类

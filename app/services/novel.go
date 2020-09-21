@@ -23,7 +23,7 @@ import (
 
 	"github.com/astaxie/beego/validation"
 
-	"github.com/vckai/novel/app/models"
+	"n2read.com/novel/app/models"
 )
 
 // 定义NovelService

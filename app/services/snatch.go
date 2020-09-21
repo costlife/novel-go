@@ -26,10 +26,10 @@ import (
 
 	"github.com/astaxie/beego"
 
-	xhttp "github.com/vckai/novel/app/librarys/net/http"
-	"github.com/vckai/novel/app/models"
-	"github.com/vckai/novel/app/services/snatchs"
-	"github.com/vckai/novel/app/utils/log"
+	xhttp "n2read.com/novel/app/librarys/net/http"
+	"n2read.com/novel/app/models"
+	"n2read.com/novel/app/services/snatchs"
+	"n2read.com/novel/app/utils/log"
 )
 
 var (

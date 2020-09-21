@@ -17,9 +17,9 @@ package admin
 import (
 	"time"
 
-	"github.com/vckai/novel/app/models"
-	"github.com/vckai/novel/app/services"
-	"github.com/vckai/novel/app/utils"
+	"n2read.com/novel/app/models"
+	"n2read.com/novel/app/services"
+	"n2read.com/novel/app/utils"
 )
 
 type AdminLogController struct {
