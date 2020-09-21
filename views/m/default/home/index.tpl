@@ -3,9 +3,9 @@
 
 	<nav class="nav">
 		<ul>
-			<li class="active"><a href="javascript:void(0)">精选</a></li>
-			<li><a href="{{urlfor "m.BookController.List"}}">分类</a></li>
-			<li><a href="{{urlfor "m.BookController.Rank"}}">排行</a></li>
+			<li class="active"><a href="javascript:void(0)">Selection</a></li>
+			<li><a href="{{urlfor "m.BookController.List"}}">Category</a></li>
+			<li><a href="{{urlfor "m.BookController.Rank"}}">Rank</a></li>
 			<!--<li><a href="javascript:void(0)">书架</a></li>-->
 		</ul>
 	</nav>
@@ -25,24 +25,25 @@
     <nav class="nav-circle">
         <ul id="tag">
             <li><a href="{{urlfor "m.BookController.List" "cate_id" 1}}">
-                <img src="{{.mOut.ViewUrl}}img/icon-1.png" alt="玄幻">玄幻</a>
+                <img src="{{.mOut.ViewUrl}}img/icon-1.png" alt="Magic">Magic</a>
             </li>
         
             <li><a href="{{urlfor "m.BookController.New"}}">
-                <img src="{{.mOut.ViewUrl}}img/icon-2.png" alt="最新更新">热更</a>
+                <img src="{{.mOut.ViewUrl}}img/icon-2.png" alt="Latest">Latest</a>
             </li>
         
             <li><a href="{{urlfor "m.BookController.End"}}">
-                <img src="{{.mOut.ViewUrl}}img/icon-3.png" alt="完本">完本</a>
+                <img src="{{.mOut.ViewUrl}}img/icon-3.png" alt="Finished">Finished</a>
             </li>
         
             <li><a href="{{urlfor "m.BookController.List" "cate_id" 2}}">
-                <img src="{{.mOut.ViewUrl}}img/icon-4.png" alt="修真">修真</a>
+                <img src="{{.mOut.ViewUrl}}img/icon-4.png" alt="Wuxia">Wuxia</a>
             </li>
-        
-            <li><a href="javascript:void(0)">
-                <img src="{{.mOut.ViewUrl}}img/icon-5.png" alt="听书">听书</a>
-           </li>
+
+            <li><a href="{{urlfor "m.BookController.List" "cate_id" 4}}">
+                <img src="{{.mOut.ViewUrl}}img/icon-5.png" alt="Military">Military</a>
+            </li>
+
         </ul>
     </nav>
  
@@ -59,7 +60,7 @@
     </div>
     
     <div class="column-wrap">
-        <h2 class="column-title">本期强推</h2>
+        <h2 class="column-title">Recommended</h2>
         <div class="horizontal-list3">
             <table>
                 <tbody>
@@ -80,7 +81,7 @@
     </div>
     
     <div class="column-wrap" id="block_2">
-        <h2 class="column-title">小编热推</h2>
+        <h2 class="column-title">Editor Suggestion</h2>
 		{{if not_nil .NovHot}}
         <ul class="vertical-list">
 			<a href="{{urlfor "m.BookController.Index" "id" .NovHot.Id}}">
@@ -116,7 +117,7 @@
     </div>
     
     <div class="column-wrap">
-        <h2 class="column-title">精品推荐</h2>
+        <h2 class="column-title">High Quality</h2>
         <div class="horizontal-list3">
             <table id="block_5">
                 <tbody>

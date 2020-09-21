@@ -7,14 +7,14 @@
             </div>
         </form>
         <nav>
-            <a href="{{urlfor "m.HomeController.Index"}}">首页</a>-
-            <a href="">免责</a>
-            -<a href="{{urlfor "m.HomeController.Feedback"}}">意见反馈</a>-
-            <a id="footer_login" href="javascript:void(0)">登录</a>
+            <a href="{{urlfor "m.HomeController.Index"}}">Home</a>-
+            <a href="">Relief</a>
+            -<a href="{{urlfor "m.HomeController.Feedback"}}">Feedback</a>-
+            <a id="footer_login" href="javascript:void(0)">Login</a>
         </nav>
  
         <div class="foot-copyright">{{.aOut.Copyright}} {{.aOut.Icp}}</div>
-		<div class="foot-copyright" style="font-size: 12px;">{{.aOut.Title}}所有内容均来自互联网和用户上传，如果侵权请联系我们删除！{{str2html .aOut.StatisticsCode}}</div>
+		<div class="foot-copyright" style="font-size: 12px;">{{.aOut.Title}}All the contents are uploaded from the Internet and users. Please contact us to delete them if they are infringing {{str2html .aOut.StatisticsCode}}</div>
     </footer>
 
     <script type="text/javascript" src="{{.mOut.ViewUrl}}js/util.js" charset="utf-8"></script>

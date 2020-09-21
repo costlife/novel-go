@@ -25,8 +25,8 @@
     <div class="column-wrap">
 	{{if not_nil .FirstChap}}
         <div class="detail-read-btn">
-			<a href="{{urlfor "m.BookController.Detail" "id" .FirstChap.Id "novid" .Nov.Id}}">开始阅读</a>
-			<a id="down_all" href="javascript:void(0)">离线全本</a>
+			<a href="{{urlfor "m.BookController.Detail" "id" .FirstChap.Id "novid" .Nov.Id}}">READ NOW</a>
+			<!-- <a id="down_all" href="javascript:void(0)">离线全本</a> -->
 		</div>
 	{{end}}
 
@@ -47,7 +47,7 @@
     </script>
 
     <div class="column-wrap">
-        <h2 class="index-title"><a href="javascript:void(0)" class="index-sort">倒序</a><strong>目录</strong>共{{.Nov.ChapterNum}}章</h2>
+        <h2 class="index-title"><a href="javascript:void(0)" class="index-sort">Reverse</a><strong>Catalog</strong>{{.Nov.ChapterNum}} chapters</h2>
         <div class="index-new"><a href="{{urlfor "m.BookController.Detail" "id" .Nov.ChapterId "novid" .Nov.Id}}"><span class="index-tag">{{datetime .Nov.ChapterUpdatedAt "01-02 15:04"}}</span>{{.Nov.ChapterTitle}}</a></div>
         <ol class="index-list" id="index-list">
 		{{range .Chaps}}
@@ -60,8 +60,8 @@
         </ol>
 		{{if .Paginator.HasPages}}
         <div class="index-page">
-            <a href="javascript:void(0)" id="first_page" class="disable">首页</a>
-            <a href="javascript:void(0)" id="prev_page" class="disable">上一页</a>
+            <a href="javascript:void(0)" id="first_page" class="disable">Home Page</a>
+            <a href="javascript:void(0)" id="prev_page" class="disable">Prev</a>
             <div class="index-select">
                 <select id="index-select">
 				{{range $index, $page := .Paginator.PageNos}}
@@ -69,8 +69,8 @@
 				{{end}}
                 </select>
             </div>
-            <a href="javascript:void(0)" id="next_page">下一页</a>
-            <a href="javascript:void(0)" id="end_page">尾页</a>
+            <a href="javascript:void(0)" id="next_page">Next</a>
+            <a href="javascript:void(0)" id="end_page">Last</a>
         </div>
 		{{end}}
     </div>

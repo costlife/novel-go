@@ -4,13 +4,13 @@
 
 <header class="hd-bar">
 	<a href="javascript:history.go(-1);" class="search-back" id="historyBack"></a>
-	<h1 style="text-align: center;">全部</h1>
+	<h1 style="text-align: center;">ALL</h1>
 	<a href="{{urlfor "m.HomeController.Index"}}" class="search-home"></a>
 </header>
 
 <nav class="nav-landing">
 	<ul>
-		<li {{if eq .Search.cate_id 0}}class="active"{{end}}><a href="javascript:void(0)" data-cid="0">全部</a></li>
+		<li {{if eq .Search.cate_id 0}}class="active"{{end}}><a href="javascript:void(0)" data-cid="0">ALL</a></li>
 		{{range .Cates}}
 		<li {{if compare $.Search.cate_id .Id}}class="active"{{end}}><a href="javascript:void(0)" data-cid="{{.Id}}">{{.Name}}</a></li>
 		{{end}}
@@ -37,7 +37,7 @@
 	</ul>
 	
 	{{if .IsNext}}
-	<div class="load-more" data-on="true">加载更多</div>
+	<div class="load-more" data-on="true">LOAD MORE</div>
 	{{end}}
 </div>
 

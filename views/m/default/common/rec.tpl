@@ -1,6 +1,6 @@
 
     <div class="column-wrap">
-        <h2 class="column-title">大家都在看</h2>
+        <h2 class="column-title">Hot</h2>
         <div class="horizontal-list3">
             <table>
                 <tbody>
@@ -19,5 +19,5 @@
                 </tbody>
             </table>
         </div>
-        <div class="search-tag-change"><a href="javascript:void(0)" id="change"><i class="icon-change"></i>换一换</a></div>
+        <div class="search-tag-change"><a href="javascript:void(0)" id="change"><i class="icon-change"></i>Change</a></div>
     </div>

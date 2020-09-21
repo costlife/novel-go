@@ -17,7 +17,7 @@
 			<input type="text" class="search-query-input" id="keyword" name="keyword">
 			<i class="search-clear" id="resetbtn"></i>
 		</form>
-		<div class="search-cancel"> 取消</div>
+		<div class="search-cancel"> Cancel</div>
 	</div>
 	<div class="search-suggestion" id="sug_wraper" style="display: none"></div>
 </div>

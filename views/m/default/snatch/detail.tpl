@@ -8,11 +8,11 @@
 </header>
 <div class="nov_detail">
 	<div class="am-btn-group am-btn-group-justify am-margin-vertical">
-		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="light('off')">关灯</a>
-		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="light('on')">开灯</a>
-		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="font('big')">大字</a>
-		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="font('middle')">中字</a>
-		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="font('small')">小字</a>
+		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="light('off')">Dark</a>
+		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="light('on')">Light</a>
+		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="font('big')">Large</a>
+		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="font('middle')">Medium</a>
+		<a class="am-btn am-btn-default" role="button" href="javascript:void(0)" onclick="font('small')">Small</a>
 	</div>
 	<hr /> 
   
@@ -23,15 +23,15 @@
 
 	  <div class="am-btn-group am-btn-group-justify am-margin-vertical">
 	  {{if ne .PreUrl ""}}
-		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .PreUrl "source" .Source "name" .Name "nov_url" .Link}}">上一章</a>
+		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .PreUrl "source" .Source "name" .Name "nov_url" .Link}}">Prev</a>
 	  {{else}}
-		<span class="am-btn am-btn-default" role="button">没有了</span>
+		<span class="am-btn am-btn-default" role="button">None</span>
 	  {{end}}
-		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Index" "url" .Link "source" .Source}}">目录</a>
+		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Index" "url" .Link "source" .Source}}">Catalog</a>
 	  {{if ne .NextUrl ""}}
-		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .NextUrl "source" .Source "name" .Name "nov_url" .Link}}">下一章</a>
+		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .NextUrl "source" .Source "name" .Name "nov_url" .Link}}">Next</a>
 	  {{else}}
-		<span class="am-btn am-btn-default" role="button">没有了</span>
+		<span class="am-btn am-btn-default" role="button">None</span>
 	  {{end}}
 	  </div>
 
@@ -41,15 +41,15 @@
 
 	  <div class="am-btn-group am-btn-group-justify am-margin-vertical">
 	  {{if ne .PreUrl ""}}
-		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .PreUrl "source" .Source "name" .Name "nov_url" .Link}}">上一章</a>
+		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .PreUrl "source" .Source "name" .Name "nov_url" .Link}}">Prev</a>
 	  {{else}}
-		<span class="am-btn am-btn-default" role="button">没有了</span>
+		<span class="am-btn am-btn-default" role="button">None</span>
 	  {{end}}
-		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Index" "url" .Link "source" .Source}}">目录</a>
+		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Index" "url" .Link "source" .Source}}">Catalog</a>
 	  {{if ne .NextUrl ""}}
-		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .NextUrl "source" .Source "name" .Name "nov_url" .Link}}">下一章</a>
+		<a class="am-btn am-btn-default" role="button" href="{{urlfor "m.SnatchController.Detail" "url" .NextUrl "source" .Source "name" .Name "nov_url" .Link}}">Next</a>
 	  {{else}}
-		<span class="am-btn am-btn-default" role="button">没有了</span>
+		<span class="am-btn am-btn-default" role="button">None</span>
 	  {{end}}
 	  </div>
 	</article>

@@ -28,7 +28,7 @@
 	</ul>
 	
 	{{if .IsNext}}
-	<div class="load-more" data-on="true">加载更多</div>
+	<div class="load-more" data-on="true">LOAD MORE</div>
 	{{end}}
 </div>
 
