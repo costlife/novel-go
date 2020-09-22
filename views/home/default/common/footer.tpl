@@ -1,5 +1,5 @@
 <div id="footer">
-	{{.aOut.Title}}的所有小说由网友上传，如有侵犯版权，请来信告知，本站立即予以处理。
+	{{.aOut.Title}}'s contents are all uploaded from the Internet and users. Please contact us to delete them if they are infringing
     <p>
         {{.aOut.Copyright}} {{.aOut.Icp}} {{str2html .aOut.StatisticsCode}}
 	</p>
