@@ -144,8 +144,8 @@ func (this *BookController) Detail() {
 		this.Msg("该小说不存在或者已被删除")
 	}
 	//fmt.Println()
-	appid := "20200911000563686";
-	key := "Ur336bsGmtQWiLzGW0dR";
+	appid := "20200922000570876";
+	key := "Thd4gG_Nz5pFfWuo_qcf";
 	salt := strconv.FormatInt(time.Now().Unix(),10);
 	query := chap.Desc;
 	from := "zh";
