@@ -25,8 +25,8 @@
     <div class="column-wrap">
 	{{if not_nil .FirstChap}}
         <div class="detail-read-btn">
-			<a href="{{urlfor "m.BookController.Detail" "id" .FirstChap.Id "novid" .Nov.Id}}">READ NOW</a>
-			<!-- <a id="down_all" href="javascript:void(0)">离线全本</a> -->
+			<a href="{{urlfor "m.BookController.Detail" "id" .FirstChap.Id "novid" .Nov.Id "lang" "en" }}">Read Now</a>
+			<a href="{{urlfor "m.BookController.Detail" "id" .FirstChap.Id "novid" .Nov.Id}}">立即阅读</a>
 		</div>
 	{{end}}
 

@@ -117,6 +117,7 @@ func (this *BookController) AjaxChaps() {
 func (this *BookController) Detail() {
 	id, _ := this.GetUint64("id")
 	novId, _ := this.GetUint32("novid")
+	lang := this.GetString("lang")
 	if id < 1 || novId < 1 {
 		this.Msg("参数错误，无法访问")
 	}
@@ -135,8 +136,10 @@ func (this *BookController) Detail() {
 		this.Msg("该小说不存在或者已被删除")
 	}
 	//fmt.Println()
-	chap.Desc = utils.Translate(chap.Desc)
-	chap.Title = utils.Translate(chap.Title)
+	if lang == "en" {
+		chap.Desc = utils.Translate(chap.Desc)
+		chap.Title = utils.Translate(chap.Title)
+	}
 	this.Data["Nov"] = nov
 	this.Data["Chap"] = chap
 	this.Data["Next"] = services.ChapterService.GetNext(chap.NovId, chap.ChapterNo)
