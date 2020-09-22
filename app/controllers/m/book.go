@@ -15,19 +15,10 @@
 package m
 
 import (
-	"fmt"
 	"github.com/astaxie/beego"
-	"github.com/tidwall/gjson"
-	"io/ioutil"
-	"n2read.com/novel/app/utils"
-	"net/http"
-	"net/url"
-	"strconv"
-	"strings"
-	"time"
-
 	"n2read.com/novel/app/models"
 	"n2read.com/novel/app/services"
+	"n2read.com/novel/app/utils"
 )
 
 const (
@@ -144,33 +135,8 @@ func (this *BookController) Detail() {
 		this.Msg("该小说不存在或者已被删除")
 	}
 	//fmt.Println()
-	appid := "20200922000570876";
-	key := "Thd4gG_Nz5pFfWuo_qcf";
-	salt := strconv.FormatInt(time.Now().Unix(),10);
-	query := chap.Desc;
-	from := "zh";
-	to := "en";
-	str := appid + query + salt + key;
-	sign := utils.GetMD5Hash(str)
-	resp, err := http.PostForm("https://fanyi-api.baidu.com/api/trans/vip/translate", url.Values{
-		"q": { query },
-		"appid": { appid },
-		"salt": { salt },
-		"from": { from },
-		"to": { to },
-		"sign": { sign },
-	})
-	if err != nil {
-		fmt.Println(err.Error())
-		return
-	}
-	fmt.Println("post send success")
-	body, err := ioutil.ReadAll(resp.Body)
-
-	res2 := gjson.Get(string(body), "trans_result.0.dst").String()
-	res2 = strings.Replace(res2, "< br / >", "<br/>", -1)
-	chap.Desc = res2
-
+	chap.Desc = utils.Translate(chap.Desc)
+	chap.Title = utils.Translate(chap.Title)
 	this.Data["Nov"] = nov
 	this.Data["Chap"] = chap
 	this.Data["Next"] = services.ChapterService.GetNext(chap.NovId, chap.ChapterNo)
