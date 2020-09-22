@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3783fef4-3e06-4f8d-a41d-208d5fe374fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/utils/baidu_translate.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/m/book.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/m/book.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_n2read_com_novel" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_n2read_com_novel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,45 +73,45 @@
       <screen x="0" y="25" width="1680" height="942" />
     </state>
     <state width="577" height="466" key="DebuggerActiveHint/0.25.1680.942@0.25.1680.942" timestamp="1600742328733" />
-    <state width="1638" height="250" key="GridCell.Tab.0.bottom" timestamp="1600742402988">
+    <state width="1638" height="308" key="GridCell.Tab.0.bottom" timestamp="1600742961501">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="250" key="GridCell.Tab.0.bottom/0.25.1680.942@0.25.1680.942" timestamp="1600742402988" />
+    <state width="1638" height="308" key="GridCell.Tab.0.bottom/0.25.1680.942@0.25.1680.942" timestamp="1600742961501" />
     <state width="1638" height="310" key="GridCell.Tab.0.bottom/0.25.1680.945@0.25.1680.945" timestamp="1600686728470" />
-    <state width="1638" height="250" key="GridCell.Tab.0.center" timestamp="1600742402987">
+    <state width="1638" height="308" key="GridCell.Tab.0.center" timestamp="1600742961499">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="250" key="GridCell.Tab.0.center/0.25.1680.942@0.25.1680.942" timestamp="1600742402987" />
+    <state width="1638" height="308" key="GridCell.Tab.0.center/0.25.1680.942@0.25.1680.942" timestamp="1600742961499" />
     <state width="1638" height="310" key="GridCell.Tab.0.center/0.25.1680.945@0.25.1680.945" timestamp="1600686728468" />
-    <state width="1638" height="250" key="GridCell.Tab.0.left" timestamp="1600742402986">
+    <state width="1638" height="308" key="GridCell.Tab.0.left" timestamp="1600742961498">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="250" key="GridCell.Tab.0.left/0.25.1680.942@0.25.1680.942" timestamp="1600742402986" />
+    <state width="1638" height="308" key="GridCell.Tab.0.left/0.25.1680.942@0.25.1680.942" timestamp="1600742961498" />
     <state width="1638" height="310" key="GridCell.Tab.0.left/0.25.1680.945@0.25.1680.945" timestamp="1600686728466" />
-    <state width="1638" height="250" key="GridCell.Tab.0.right" timestamp="1600742402987">
+    <state width="1638" height="308" key="GridCell.Tab.0.right" timestamp="1600742961500">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="250" key="GridCell.Tab.0.right/0.25.1680.942@0.25.1680.942" timestamp="1600742402987" />
+    <state width="1638" height="308" key="GridCell.Tab.0.right/0.25.1680.942@0.25.1680.942" timestamp="1600742961500" />
     <state width="1638" height="310" key="GridCell.Tab.0.right/0.25.1680.945@0.25.1680.945" timestamp="1600686728469" />
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom" timestamp="1600742373828">
+    <state width="1638" height="308" key="GridCell.Tab.1.bottom" timestamp="1600742961503">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom/0.25.1680.942@0.25.1680.942" timestamp="1600742373828" />
+    <state width="1638" height="308" key="GridCell.Tab.1.bottom/0.25.1680.942@0.25.1680.942" timestamp="1600742961503" />
     <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.25.1680.945@0.25.1680.945" timestamp="1600686728296" />
-    <state width="1638" height="308" key="GridCell.Tab.1.center" timestamp="1600742373827">
+    <state width="1638" height="308" key="GridCell.Tab.1.center" timestamp="1600742961502">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.center/0.25.1680.942@0.25.1680.942" timestamp="1600742373827" />
+    <state width="1638" height="308" key="GridCell.Tab.1.center/0.25.1680.942@0.25.1680.942" timestamp="1600742961502" />
     <state width="1638" height="310" key="GridCell.Tab.1.center/0.25.1680.945@0.25.1680.945" timestamp="1600686728295" />
-    <state width="1638" height="308" key="GridCell.Tab.1.left" timestamp="1600742373826">
+    <state width="1638" height="308" key="GridCell.Tab.1.left" timestamp="1600742961502">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.left/0.25.1680.942@0.25.1680.942" timestamp="1600742373826" />
+    <state width="1638" height="308" key="GridCell.Tab.1.left/0.25.1680.942@0.25.1680.942" timestamp="1600742961502" />
     <state width="1638" height="310" key="GridCell.Tab.1.left/0.25.1680.945@0.25.1680.945" timestamp="1600686728294" />
-    <state width="1638" height="308" key="GridCell.Tab.1.right" timestamp="1600742373827">
+    <state width="1638" height="308" key="GridCell.Tab.1.right" timestamp="1600742961502">
       <screen x="0" y="25" width="1680" height="942" />
     </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.right/0.25.1680.942@0.25.1680.942" timestamp="1600742373827" />
+    <state width="1638" height="308" key="GridCell.Tab.1.right/0.25.1680.942@0.25.1680.942" timestamp="1600742961502" />
     <state width="1638" height="310" key="GridCell.Tab.1.right/0.25.1680.945@0.25.1680.945" timestamp="1600686728296" />
     <state x="349" y="133" key="SettingsEditor" timestamp="1600671294084">
       <screen x="0" y="25" width="1680" height="945" />
